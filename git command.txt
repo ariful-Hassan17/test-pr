@@ -1,0 +1,24 @@
+git --version
+
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+git config --global --list
+
+git remote add origin HTTPS_link
+git remote -v
+
+git init
+git add .
+git commit -m "message"
+git push -u origin master //first time only
+git push
+git pull
+
+git status
+git log
+git checkout <commit-hash>
+git reset --hard h7i8j9k
+git reset --soft <commit-hash>
+git reset --mixed <commit-hash>
+
+
