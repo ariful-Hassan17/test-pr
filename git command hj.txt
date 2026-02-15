@@ -7,7 +7,8 @@ git config --global --list
 git remote add origin HTTPS_link
 git remote -v
 
-git init
+git init //first time for creating new folder.
+git branch -m master main //if the branch is master.
 git add .
 git commit -m "message"
 git push -u origin master //first time only
@@ -17,6 +18,7 @@ git pull
 git status
 git log
 git checkout <commit-hash>
+git restore --source <commit-hash>
 git reset --hard h7i8j9k
 git reset --soft <commit-hash>
 git reset --mixed <commit-hash>
